@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+}
+
+body li{
+    list-style: none;
+}
+
+.quiz{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.quiz-results{
+    display: none;
+}
+
+.btn-restart{
+    display: none;
+}
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden {
+    display: none;
+}
+
+.results--visible,
+.btn-restart--visible {
+    display: block;
+}
+
+.answer--invalid{
+    color: red;
+}
+
+.answer--valid{
+    color: green;
+}
